@@ -16,7 +16,7 @@ Tema oscuro y claro con la paleta del desierto de Atacama: azul profundo, amaril
 | Zed | — | Próximamente |
 | Neovim | — | Próximamente |
 | Ghostty | — | Próximamente |
-| iTerm2 | `iterm2/` | Listo |
+| iTerm2 | — | Próximamente |
 | Windows Terminal | — | Próximamente |
 | Alacritty | — | Próximamente |
 | Kitty | — | Próximamente |
