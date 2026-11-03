@@ -35,7 +35,11 @@ code --install-extension commenteme.atacama-theme
 | VS Code · Cursor · Windsurf · VSCodium | [`vscode/`](./vscode) | Listo |
 | Zed · Neovim | — | Próximamente |
 | Warp | [`warp/`](./warp) | Listo |
-| Ghostty · iTerm2 · Windows Terminal · Alacritty · Kitty | — | Próximamente |
+| Ghostty | [`ghostty/`](./ghostty) | Listo |
+| iTerm2 | [`iterm2/`](./iterm2) | Listo |
+| Windows Terminal | [`windows-terminal/`](./windows-terminal) | Listo |
+| Alacritty | [`alacritty/`](./alacritty) | Listo |
+| Kitty | [`kitty/`](./kitty) | Listo |
 | Chrome · Edge · Brave · Arc · Slack | — | Próximamente |
 | JetBrains · Obsidian · Raycast · Firefox | — | Próximamente |
 

@@ -1,0 +1,22 @@
+# Atacama Theme · Atacama Día · MIT · commente.me
+background = #F4F6F7
+foreground = #1A1A1A
+cursor-color = #005278
+selection-background = #7FBBD8
+selection-foreground = #1A1A1A
+palette = 0=#1A1A1A
+palette = 1=#B3123F
+palette = 2=#3F7A1F
+palette = 3=#8A5A00
+palette = 4=#005278
+palette = 5=#9B2C6B
+palette = 6=#1F7A5C
+palette = 7=#DDE4E8
+palette = 8=#5C6D75
+palette = 9=#D11F52
+palette = 10=#4E9427
+palette = 11=#B37A00
+palette = 12=#1F6F96
+palette = 13=#B8407F
+palette = 14=#279472
+palette = 15=#FFFFFF

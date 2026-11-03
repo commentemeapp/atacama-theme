@@ -1,0 +1,22 @@
+# Atacama Theme · Atacama Noche · MIT · commente.me
+background = #0B1820
+foreground = #DDE4E8
+cursor-color = #FFBD38
+selection-background = #2E86AE
+selection-foreground = #DDE4E8
+palette = 0=#0B1820
+palette = 1=#FF5C86
+palette = 2=#95BF47
+palette = 3=#FFBD38
+palette = 4=#7FBBD8
+palette = 5=#F7A1B8
+palette = 6=#8ED6CF
+palette = 7=#DDE4E8
+palette = 8=#5E7380
+palette = 9=#FF86A6
+palette = 10=#B3D67A
+palette = 11=#FFCA5F
+palette = 12=#A9D4EA
+palette = 13=#FAC0CF
+palette = 14=#B5E3C9
+palette = 15=#FFFFFF
