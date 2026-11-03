@@ -1,0 +1,9 @@
+product-icons/src/**
+product-icons/fixed/**
+.fantasticonrc.js
+node_modules/**
+scripts/**
+assets/**
+images/**
+**/*.vsix
+**/.DS_Store

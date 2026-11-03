@@ -1,0 +1,39 @@
+name: Release
+
+# Empacota o .vsix ao enviar uma tag de versão (ex.: v1.0.0) e o anexa à Release do
+# GitHub. NÃO publica no Marketplace nem no Open VSX: a publicação é manual, com
+# `vsce login commenteme` e `npm run publish:vsce` / `npm run publish:ovsx` em vscode/.
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    defaults:
+      run:
+        working-directory: vscode
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: vscode/package-lock.json
+      - name: Instalar dependências
+        run: npm ci
+      - name: Checar temas e ícones
+        run: npm run check
+      - name: Empacotar o .vsix
+        run: npm run package
+      - name: Anexar o .vsix à Release do GitHub
+        uses: softprops/action-gh-release@v3
+        with:
+          files: vscode/*.vsix
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

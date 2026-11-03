@@ -1,0 +1,5 @@
+node_modules/
+*.vsix
+vscode/product-icons/fixed/
+vscode/product-icons/*.woff
+.DS_Store
