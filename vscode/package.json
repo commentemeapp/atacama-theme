@@ -1,0 +1,71 @@
+{
+  "name": "atacama-theme",
+  "displayName": "Atacama Theme",
+  "description": "Tema oscuro y claro con la paleta del desierto de Atacama: azul profundo, amarillo de acento. Colores, íconos de archivo e íconos del producto.",
+  "version": "1.0.0",
+  "publisher": "commenteme",
+  "license": "MIT",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#005278",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "atacama",
+    "theme",
+    "dark",
+    "light",
+    "blue",
+    "yellow",
+    "vtex",
+    "shopify",
+    "commente.me"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Atacama Noche",
+        "uiTheme": "vs-dark",
+        "path": "./themes/atacama-noche-color-theme.json"
+      },
+      {
+        "label": "Atacama Día",
+        "uiTheme": "vs",
+        "path": "./themes/atacama-dia-color-theme.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "atacama-icons",
+        "label": "Atacama Icons",
+        "path": "./fileicons/commente-file-icon-theme.json"
+      }
+    ],
+    "productIconThemes": [
+      {
+        "id": "atacama-product-icons",
+        "label": "Atacama Product Icons",
+        "path": "./product-icons/commente-product-icon-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "build:icons": "mkdir -p product-icons/fixed && oslllo-svg-fixer -s product-icons/src -d product-icons/fixed && fantasticon",
+    "vscode:prepublish": "npm run build:icons",
+    "package": "vsce package",
+    "publish:vsce": "vsce publish",
+    "publish:ovsx": "ovsx publish"
+  },
+  "devDependencies": {
+    "fantasticon": "^3.0.0",
+    "oslllo-svg-fixer": "^5.0.0",
+    "@vscode/vsce": "^3.0.0",
+    "ovsx": "^0.10.0"
+  }
+}

@@ -1,0 +1,4 @@
+product-icons/src/**
+product-icons/fixed/**
+.fantasticonrc.js
+node_modules/**

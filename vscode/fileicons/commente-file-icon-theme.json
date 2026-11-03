@@ -1,0 +1,664 @@
+{
+  "iconDefinitions": {
+    "_file": {
+      "iconPath": "./icons/_file.svg"
+    },
+    "ts": {
+      "iconPath": "./icons/ts.svg"
+    },
+    "tsx": {
+      "iconPath": "./icons/tsx.svg"
+    },
+    "js": {
+      "iconPath": "./icons/js.svg"
+    },
+    "jsx": {
+      "iconPath": "./icons/jsx.svg"
+    },
+    "py": {
+      "iconPath": "./icons/py.svg"
+    },
+    "sh": {
+      "iconPath": "./icons/sh.svg"
+    },
+    "sql": {
+      "iconPath": "./icons/sql.svg"
+    },
+    "graphql": {
+      "iconPath": "./icons/graphql.svg"
+    },
+    "liquid": {
+      "iconPath": "./icons/liquid.svg"
+    },
+    "json": {
+      "iconPath": "./icons/json.svg"
+    },
+    "jsonl": {
+      "iconPath": "./icons/jsonl.svg"
+    },
+    "csv": {
+      "iconPath": "./icons/csv.svg"
+    },
+    "yaml": {
+      "iconPath": "./icons/yaml.svg"
+    },
+    "toml": {
+      "iconPath": "./icons/toml.svg"
+    },
+    "css": {
+      "iconPath": "./icons/css.svg"
+    },
+    "md": {
+      "iconPath": "./icons/md.svg"
+    },
+    "txt": {
+      "iconPath": "./icons/txt.svg"
+    },
+    "pdf": {
+      "iconPath": "./icons/pdf.svg"
+    },
+    "html": {
+      "iconPath": "./icons/html.svg"
+    },
+    "image": {
+      "iconPath": "./icons/image.svg"
+    },
+    "svg": {
+      "iconPath": "./icons/svg.svg"
+    },
+    "font": {
+      "iconPath": "./icons/font.svg"
+    },
+    "map": {
+      "iconPath": "./icons/map.svg"
+    },
+    "lockf": {
+      "iconPath": "./icons/lockf.svg"
+    },
+    "zip": {
+      "iconPath": "./icons/zip.svg"
+    },
+    "pyc": {
+      "iconPath": "./icons/pyc.svg"
+    },
+    "manifest": {
+      "iconPath": "./icons/manifest.svg"
+    },
+    "vtexjson": {
+      "iconPath": "./icons/vtexjson.svg"
+    },
+    "pkg": {
+      "iconPath": "./icons/pkg.svg"
+    },
+    "config": {
+      "iconPath": "./icons/config.svg"
+    },
+    "agent": {
+      "iconPath": "./icons/agent.svg"
+    },
+    "readme": {
+      "iconPath": "./icons/readme.svg"
+    },
+    "changelog": {
+      "iconPath": "./icons/changelog.svg"
+    },
+    "env": {
+      "iconPath": "./icons/env.svg"
+    },
+    "git": {
+      "iconPath": "./icons/git.svg"
+    },
+    "docker": {
+      "iconPath": "./icons/docker.svg"
+    },
+    "deploy": {
+      "iconPath": "./icons/deploy.svg"
+    },
+    "test": {
+      "iconPath": "./icons/test.svg"
+    },
+    "folder": {
+      "iconPath": "./icons/folder.svg"
+    },
+    "folder-vtex": {
+      "iconPath": "./icons/folder-vtex.svg"
+    },
+    "folder-shopify": {
+      "iconPath": "./icons/folder-shopify.svg"
+    },
+    "folder-shared": {
+      "iconPath": "./icons/folder-shared.svg"
+    },
+    "folder-tool": {
+      "iconPath": "./icons/folder-tool.svg"
+    },
+    "folder-ai": {
+      "iconPath": "./icons/folder-ai.svg"
+    },
+    "folder-dante": {
+      "iconPath": "./icons/folder-dante.svg"
+    },
+    "folder-code": {
+      "iconPath": "./icons/folder-code.svg"
+    },
+    "folder-server": {
+      "iconPath": "./icons/folder-server.svg"
+    },
+    "folder-auto": {
+      "iconPath": "./icons/folder-auto.svg"
+    },
+    "folder-content": {
+      "iconPath": "./icons/folder-content.svg"
+    },
+    "folder-test": {
+      "iconPath": "./icons/folder-test.svg"
+    },
+    "folder-gen": {
+      "iconPath": "./icons/folder-gen.svg"
+    },
+    "folder-open": {
+      "iconPath": "./icons/folder-open.svg"
+    },
+    "folder-open-vtex": {
+      "iconPath": "./icons/folder-open-vtex.svg"
+    },
+    "folder-open-shopify": {
+      "iconPath": "./icons/folder-open-shopify.svg"
+    },
+    "folder-open-shared": {
+      "iconPath": "./icons/folder-open-shared.svg"
+    },
+    "folder-open-tool": {
+      "iconPath": "./icons/folder-open-tool.svg"
+    },
+    "folder-open-ai": {
+      "iconPath": "./icons/folder-open-ai.svg"
+    },
+    "folder-open-dante": {
+      "iconPath": "./icons/folder-open-dante.svg"
+    },
+    "folder-open-code": {
+      "iconPath": "./icons/folder-open-code.svg"
+    },
+    "folder-open-server": {
+      "iconPath": "./icons/folder-open-server.svg"
+    },
+    "folder-open-auto": {
+      "iconPath": "./icons/folder-open-auto.svg"
+    },
+    "folder-open-content": {
+      "iconPath": "./icons/folder-open-content.svg"
+    },
+    "folder-open-test": {
+      "iconPath": "./icons/folder-open-test.svg"
+    },
+    "folder-open-gen": {
+      "iconPath": "./icons/folder-open-gen.svg"
+    },
+    "folder-light": {
+      "iconPath": "./icons/folder-light.svg"
+    },
+    "folder-vtex-light": {
+      "iconPath": "./icons/folder-vtex-light.svg"
+    },
+    "folder-shopify-light": {
+      "iconPath": "./icons/folder-shopify-light.svg"
+    },
+    "folder-shared-light": {
+      "iconPath": "./icons/folder-shared-light.svg"
+    },
+    "folder-tool-light": {
+      "iconPath": "./icons/folder-tool-light.svg"
+    },
+    "folder-ai-light": {
+      "iconPath": "./icons/folder-ai-light.svg"
+    },
+    "folder-dante-light": {
+      "iconPath": "./icons/folder-dante-light.svg"
+    },
+    "folder-code-light": {
+      "iconPath": "./icons/folder-code-light.svg"
+    },
+    "folder-server-light": {
+      "iconPath": "./icons/folder-server-light.svg"
+    },
+    "folder-auto-light": {
+      "iconPath": "./icons/folder-auto-light.svg"
+    },
+    "folder-content-light": {
+      "iconPath": "./icons/folder-content-light.svg"
+    },
+    "folder-test-light": {
+      "iconPath": "./icons/folder-test-light.svg"
+    },
+    "folder-gen-light": {
+      "iconPath": "./icons/folder-gen-light.svg"
+    },
+    "folder-open-light": {
+      "iconPath": "./icons/folder-open-light.svg"
+    },
+    "folder-open-vtex-light": {
+      "iconPath": "./icons/folder-open-vtex-light.svg"
+    },
+    "folder-open-shopify-light": {
+      "iconPath": "./icons/folder-open-shopify-light.svg"
+    },
+    "folder-open-shared-light": {
+      "iconPath": "./icons/folder-open-shared-light.svg"
+    },
+    "folder-open-tool-light": {
+      "iconPath": "./icons/folder-open-tool-light.svg"
+    },
+    "folder-open-ai-light": {
+      "iconPath": "./icons/folder-open-ai-light.svg"
+    },
+    "folder-open-dante-light": {
+      "iconPath": "./icons/folder-open-dante-light.svg"
+    },
+    "folder-open-code-light": {
+      "iconPath": "./icons/folder-open-code-light.svg"
+    },
+    "folder-open-server-light": {
+      "iconPath": "./icons/folder-open-server-light.svg"
+    },
+    "folder-open-auto-light": {
+      "iconPath": "./icons/folder-open-auto-light.svg"
+    },
+    "folder-open-content-light": {
+      "iconPath": "./icons/folder-open-content-light.svg"
+    },
+    "folder-open-test-light": {
+      "iconPath": "./icons/folder-open-test-light.svg"
+    },
+    "folder-open-gen-light": {
+      "iconPath": "./icons/folder-open-gen-light.svg"
+    }
+  },
+  "file": "_file",
+  "folder": "folder",
+  "folderExpanded": "folder-open",
+  "rootFolder": "folder",
+  "rootFolderExpanded": "folder-open",
+  "fileExtensions": {
+    "ts": "ts",
+    "mts": "ts",
+    "cts": "ts",
+    "d.ts": "ts",
+    "tsx": "tsx",
+    "js": "js",
+    "mjs": "js",
+    "cjs": "js",
+    "jsx": "jsx",
+    "py": "py",
+    "sh": "sh",
+    "bash": "sh",
+    "zsh": "sh",
+    "sql": "sql",
+    "graphql": "graphql",
+    "gql": "graphql",
+    "liquid": "liquid",
+    "json": "json",
+    "jsonc": "json",
+    "json5": "json",
+    "jsonl": "jsonl",
+    "ndjson": "jsonl",
+    "csv": "csv",
+    "xlsx": "csv",
+    "xls": "csv",
+    "tsv": "csv",
+    "yml": "yaml",
+    "yaml": "yaml",
+    "toml": "toml",
+    "css": "css",
+    "scss": "css",
+    "sass": "css",
+    "less": "css",
+    "md": "md",
+    "mdx": "md",
+    "txt": "txt",
+    "pdf": "pdf",
+    "html": "html",
+    "htm": "html",
+    "svg": "svg",
+    "png": "image",
+    "jpg": "image",
+    "jpeg": "image",
+    "webp": "image",
+    "gif": "image",
+    "avif": "image",
+    "ico": "image",
+    "woff2": "font",
+    "woff": "font",
+    "ttf": "font",
+    "otf": "font",
+    "map": "map",
+    "lock": "lockf",
+    "zip": "zip",
+    "gz": "zip",
+    "tgz": "zip",
+    "pyc": "pyc",
+    "env": "env",
+    "test.ts": "test",
+    "test.tsx": "test",
+    "spec.ts": "test",
+    "spec.tsx": "test",
+    "test.js": "test",
+    "test.py": "test"
+  },
+  "fileNames": {
+    "manifest.json": "manifest",
+    "interfaces.json": "vtexjson",
+    "service.json": "vtexjson",
+    "routes.json": "vtexjson",
+    "contentSchemas.json": "vtexjson",
+    "package.json": "pkg",
+    "package-lock.json": "lockf",
+    "yarn.lock": "lockf",
+    "pnpm-lock.yaml": "lockf",
+    "tsconfig.json": "config",
+    "jsconfig.json": "config",
+    "CLAUDE.md": "agent",
+    "AGENTS.md": "agent",
+    "claude.md": "agent",
+    "agents.md": "agent",
+    "README.md": "readme",
+    "readme.md": "readme",
+    "CHANGELOG.md": "changelog",
+    "changelog.md": "changelog",
+    ".env": "env",
+    ".env.local": "env",
+    ".env.example": "env",
+    ".gitignore": "git",
+    ".gitattributes": "git",
+    ".editorconfig": "config",
+    ".prettierrc": "config",
+    ".prettierrc.json": "config",
+    ".prettierignore": "config",
+    ".eslintrc": "config",
+    ".eslintrc.json": "config",
+    ".eslintrc.js": "config",
+    "eslint.config.js": "config",
+    "Dockerfile": "docker",
+    "dockerfile": "docker",
+    "docker-compose.yml": "docker",
+    ".dockerignore": "docker",
+    "railway.json": "deploy",
+    "railway.toml": "deploy",
+    "wrangler.toml": "deploy",
+    "wrangler.jsonc": "deploy",
+    "LICENSE": "md"
+  },
+  "folderNames": {
+    ".vscode": "folder-tool",
+    ".github": "folder-tool",
+    ".githooks": "folder-tool",
+    ".react-router": "folder-tool",
+    ".claude": "folder-ai",
+    ".claude-plugin": "folder-ai",
+    ".agents": "folder-ai",
+    ".codex": "folder-ai",
+    "skills": "folder-ai",
+    "agents": "folder-ai",
+    "plugins": "folder-ai",
+    ".dante": "folder-dante",
+    ".vtex": "folder-vtex",
+    "store": "folder-vtex",
+    "react": "folder-vtex",
+    "node": "folder-vtex",
+    "graphql": "folder-vtex",
+    "messages": "folder-vtex",
+    "styles": "folder-vtex",
+    "iconpacks": "folder-vtex",
+    "admin": "folder-vtex",
+    "masterdata": "folder-vtex",
+    "pages": "folder-vtex",
+    "sections": "folder-shopify",
+    "snippets": "folder-shopify",
+    "layout": "folder-shopify",
+    "locales": "folder-shopify",
+    "templates": "folder-shared",
+    "blocks": "folder-shared",
+    "assets": "folder-shared",
+    "config": "folder-shared",
+    "public": "folder-shared",
+    "src": "folder-code",
+    "app": "folder-code",
+    "lib": "folder-code",
+    "components": "folder-code",
+    "routes": "folder-code",
+    "client": "folder-code",
+    "types": "folder-code",
+    "server": "folder-server",
+    "prisma": "folder-server",
+    "data": "folder-server",
+    "scripts": "folder-auto",
+    "tools": "folder-auto",
+    "workflows": "folder-auto",
+    "configs": "folder-auto",
+    "docs": "folder-content",
+    "images": "folder-content",
+    "css": "folder-content",
+    "landing": "folder-content",
+    "test": "folder-test",
+    "tests": "folder-test",
+    "__tests__": "folder-test",
+    "build": "folder-gen",
+    "dist": "folder-gen",
+    "worktrees": "folder-gen",
+    "__pycache__": "folder-gen",
+    "node_modules": "folder-gen",
+    ".git": "folder-gen"
+  },
+  "folderNamesExpanded": {
+    ".vscode": "folder-open-tool",
+    ".github": "folder-open-tool",
+    ".githooks": "folder-open-tool",
+    ".react-router": "folder-open-tool",
+    ".claude": "folder-open-ai",
+    ".claude-plugin": "folder-open-ai",
+    ".agents": "folder-open-ai",
+    ".codex": "folder-open-ai",
+    "skills": "folder-open-ai",
+    "agents": "folder-open-ai",
+    "plugins": "folder-open-ai",
+    ".dante": "folder-open-dante",
+    ".vtex": "folder-open-vtex",
+    "store": "folder-open-vtex",
+    "react": "folder-open-vtex",
+    "node": "folder-open-vtex",
+    "graphql": "folder-open-vtex",
+    "messages": "folder-open-vtex",
+    "styles": "folder-open-vtex",
+    "iconpacks": "folder-open-vtex",
+    "admin": "folder-open-vtex",
+    "masterdata": "folder-open-vtex",
+    "pages": "folder-open-vtex",
+    "sections": "folder-open-shopify",
+    "snippets": "folder-open-shopify",
+    "layout": "folder-open-shopify",
+    "locales": "folder-open-shopify",
+    "templates": "folder-open-shared",
+    "blocks": "folder-open-shared",
+    "assets": "folder-open-shared",
+    "config": "folder-open-shared",
+    "public": "folder-open-shared",
+    "src": "folder-open-code",
+    "app": "folder-open-code",
+    "lib": "folder-open-code",
+    "components": "folder-open-code",
+    "routes": "folder-open-code",
+    "client": "folder-open-code",
+    "types": "folder-open-code",
+    "server": "folder-open-server",
+    "prisma": "folder-open-server",
+    "data": "folder-open-server",
+    "scripts": "folder-open-auto",
+    "tools": "folder-open-auto",
+    "workflows": "folder-open-auto",
+    "configs": "folder-open-auto",
+    "docs": "folder-open-content",
+    "images": "folder-open-content",
+    "css": "folder-open-content",
+    "landing": "folder-open-content",
+    "test": "folder-open-test",
+    "tests": "folder-open-test",
+    "__tests__": "folder-open-test",
+    "build": "folder-open-gen",
+    "dist": "folder-open-gen",
+    "worktrees": "folder-open-gen",
+    "__pycache__": "folder-open-gen",
+    "node_modules": "folder-open-gen",
+    ".git": "folder-open-gen"
+  },
+  "languageIds": {
+    "typescript": "ts",
+    "typescriptreact": "tsx",
+    "javascript": "js",
+    "javascriptreact": "jsx",
+    "python": "py",
+    "shellscript": "sh",
+    "sql": "sql",
+    "graphql": "graphql",
+    "liquid": "liquid",
+    "json": "json",
+    "jsonc": "json",
+    "jsonl": "jsonl",
+    "yaml": "yaml",
+    "toml": "toml",
+    "css": "css",
+    "scss": "css",
+    "markdown": "md",
+    "plaintext": "txt",
+    "html": "html",
+    "dockerfile": "docker"
+  },
+  "light": {
+    "folder": "folder-light",
+    "folderExpanded": "folder-open-light",
+    "rootFolder": "folder-light",
+    "rootFolderExpanded": "folder-open-light",
+    "folderNames": {
+      ".vscode": "folder-tool-light",
+      ".github": "folder-tool-light",
+      ".githooks": "folder-tool-light",
+      ".react-router": "folder-tool-light",
+      ".claude": "folder-ai-light",
+      ".claude-plugin": "folder-ai-light",
+      ".agents": "folder-ai-light",
+      ".codex": "folder-ai-light",
+      "skills": "folder-ai-light",
+      "agents": "folder-ai-light",
+      "plugins": "folder-ai-light",
+      ".dante": "folder-dante-light",
+      ".vtex": "folder-vtex-light",
+      "store": "folder-vtex-light",
+      "react": "folder-vtex-light",
+      "node": "folder-vtex-light",
+      "graphql": "folder-vtex-light",
+      "messages": "folder-vtex-light",
+      "styles": "folder-vtex-light",
+      "iconpacks": "folder-vtex-light",
+      "admin": "folder-vtex-light",
+      "masterdata": "folder-vtex-light",
+      "pages": "folder-vtex-light",
+      "sections": "folder-shopify-light",
+      "snippets": "folder-shopify-light",
+      "layout": "folder-shopify-light",
+      "locales": "folder-shopify-light",
+      "templates": "folder-shared-light",
+      "blocks": "folder-shared-light",
+      "assets": "folder-shared-light",
+      "config": "folder-shared-light",
+      "public": "folder-shared-light",
+      "src": "folder-code-light",
+      "app": "folder-code-light",
+      "lib": "folder-code-light",
+      "components": "folder-code-light",
+      "routes": "folder-code-light",
+      "client": "folder-code-light",
+      "types": "folder-code-light",
+      "server": "folder-server-light",
+      "prisma": "folder-server-light",
+      "data": "folder-server-light",
+      "scripts": "folder-auto-light",
+      "tools": "folder-auto-light",
+      "workflows": "folder-auto-light",
+      "configs": "folder-auto-light",
+      "docs": "folder-content-light",
+      "images": "folder-content-light",
+      "css": "folder-content-light",
+      "landing": "folder-content-light",
+      "test": "folder-test-light",
+      "tests": "folder-test-light",
+      "__tests__": "folder-test-light",
+      "build": "folder-gen-light",
+      "dist": "folder-gen-light",
+      "worktrees": "folder-gen-light",
+      "__pycache__": "folder-gen-light",
+      "node_modules": "folder-gen-light",
+      ".git": "folder-gen-light"
+    },
+    "folderNamesExpanded": {
+      ".vscode": "folder-open-tool-light",
+      ".github": "folder-open-tool-light",
+      ".githooks": "folder-open-tool-light",
+      ".react-router": "folder-open-tool-light",
+      ".claude": "folder-open-ai-light",
+      ".claude-plugin": "folder-open-ai-light",
+      ".agents": "folder-open-ai-light",
+      ".codex": "folder-open-ai-light",
+      "skills": "folder-open-ai-light",
+      "agents": "folder-open-ai-light",
+      "plugins": "folder-open-ai-light",
+      ".dante": "folder-open-dante-light",
+      ".vtex": "folder-open-vtex-light",
+      "store": "folder-open-vtex-light",
+      "react": "folder-open-vtex-light",
+      "node": "folder-open-vtex-light",
+      "graphql": "folder-open-vtex-light",
+      "messages": "folder-open-vtex-light",
+      "styles": "folder-open-vtex-light",
+      "iconpacks": "folder-open-vtex-light",
+      "admin": "folder-open-vtex-light",
+      "masterdata": "folder-open-vtex-light",
+      "pages": "folder-open-vtex-light",
+      "sections": "folder-open-shopify-light",
+      "snippets": "folder-open-shopify-light",
+      "layout": "folder-open-shopify-light",
+      "locales": "folder-open-shopify-light",
+      "templates": "folder-open-shared-light",
+      "blocks": "folder-open-shared-light",
+      "assets": "folder-open-shared-light",
+      "config": "folder-open-shared-light",
+      "public": "folder-open-shared-light",
+      "src": "folder-open-code-light",
+      "app": "folder-open-code-light",
+      "lib": "folder-open-code-light",
+      "components": "folder-open-code-light",
+      "routes": "folder-open-code-light",
+      "client": "folder-open-code-light",
+      "types": "folder-open-code-light",
+      "server": "folder-open-server-light",
+      "prisma": "folder-open-server-light",
+      "data": "folder-open-server-light",
+      "scripts": "folder-open-auto-light",
+      "tools": "folder-open-auto-light",
+      "workflows": "folder-open-auto-light",
+      "configs": "folder-open-auto-light",
+      "docs": "folder-open-content-light",
+      "images": "folder-open-content-light",
+      "css": "folder-open-content-light",
+      "landing": "folder-open-content-light",
+      "test": "folder-open-test-light",
+      "tests": "folder-open-test-light",
+      "__tests__": "folder-open-test-light",
+      "build": "folder-open-gen-light",
+      "dist": "folder-open-gen-light",
+      "worktrees": "folder-open-gen-light",
+      "__pycache__": "folder-open-gen-light",
+      "node_modules": "folder-open-gen-light",
+      ".git": "folder-open-gen-light"
+    }
+  },
+  "hidesExplorerArrows": false
+}
