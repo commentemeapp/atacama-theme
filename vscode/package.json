@@ -1,7 +1,7 @@
 {
   "name": "atacama-theme",
   "displayName": "Atacama Theme",
-  "description": "Tema oscuro y claro con la paleta del desierto de Atacama: azul profundo, amarillo de acento. Colores, íconos de archivo e íconos del producto.",
+  "description": "Tema oscuro y claro con la paleta del desierto de Atacama: azul profundo y amarillo de acento. Colores, íconos de archivo e íconos del producto.",
   "version": "1.0.0",
   "publisher": "commenteme",
   "license": "MIT",
@@ -9,6 +9,15 @@
   "galleryBanner": {
     "color": "#005278",
     "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/commentemeapp/atacama-theme.git",
+    "directory": "vscode"
+  },
+  "homepage": "https://github.com/commentemeapp/atacama-theme/tree/main/vscode#readme",
+  "bugs": {
+    "url": "https://github.com/commentemeapp/atacama-theme/issues"
   },
   "engines": {
     "vscode": "^1.70.0"
@@ -19,13 +28,15 @@
   "keywords": [
     "atacama",
     "theme",
-    "dark",
-    "light",
+    "dark theme",
+    "light theme",
+    "icon theme",
+    "product icon theme",
     "blue",
     "yellow",
     "vtex",
     "shopify",
-    "commente.me"
+    "adobe commerce"
   ],
   "contributes": {
     "themes": [
@@ -56,11 +67,12 @@
     ]
   },
   "scripts": {
+    "check": "node scripts/check.mjs",
     "build:icons": "mkdir -p product-icons/fixed && oslllo-svg-fixer -s product-icons/src -d product-icons/fixed && fantasticon",
-    "vscode:prepublish": "npm run build:icons",
-    "package": "vsce package",
-    "publish:vsce": "vsce publish",
-    "publish:ovsx": "ovsx publish"
+    "vscode:prepublish": "npm run check && npm run build:icons",
+    "package": "vsce package --no-dependencies --baseContentUrl https://github.com/commentemeapp/atacama-theme/blob/main/vscode --baseImagesUrl https://raw.githubusercontent.com/commentemeapp/atacama-theme/main/vscode",
+    "publish:vsce": "vsce publish --no-dependencies --baseContentUrl https://github.com/commentemeapp/atacama-theme/blob/main/vscode --baseImagesUrl https://raw.githubusercontent.com/commentemeapp/atacama-theme/main/vscode",
+    "publish:ovsx": "ovsx publish --no-dependencies --baseContentUrl https://github.com/commentemeapp/atacama-theme/blob/main/vscode --baseImagesUrl https://raw.githubusercontent.com/commentemeapp/atacama-theme/main/vscode"
   },
   "devDependencies": {
     "fantasticon": "^3.0.0",
