@@ -6,8 +6,7 @@
 
 **Tema oscuro y claro con la paleta del desierto de Atacama: azul profundo, amarillo de acento, todo lo demás en silencio.**
 
-[![marketplace](https://img.shields.io/visual-studio-marketplace/v/commenteme.atacama-theme?label=marketplace&labelColor=005278&color=FFBD38)](https://marketplace.visualstudio.com/items?itemName=commenteme.atacama-theme)
-[![instalaciones](https://img.shields.io/visual-studio-marketplace/i/commenteme.atacama-theme?label=instalaciones&labelColor=005278&color=FFBD38)](https://marketplace.visualstudio.com/items?itemName=commenteme.atacama-theme)
+[![versión](https://img.shields.io/github/package-json/v/commentemeapp/atacama-theme/main?filename=vscode%2Fpackage.json&label=versi%C3%B3n&labelColor=005278&color=FFBD38)](https://marketplace.visualstudio.com/items?itemName=commenteme.atacama-theme)
 [![licencia](https://img.shields.io/github/license/commentemeapp/atacama-theme?label=licencia&labelColor=005278&color=FFBD38)](./LICENSE)
 
 ## Instalación
@@ -40,7 +39,8 @@ code --install-extension commenteme.atacama-theme
 | Windows Terminal | [`windows-terminal/`](./windows-terminal) | Listo |
 | Alacritty | [`alacritty/`](./alacritty) | Listo |
 | Kitty | [`kitty/`](./kitty) | Listo |
-| Chrome · Edge · Brave · Arc · Slack | — | Próximamente |
+| Chrome · Edge · Brave · Arc | [`chrome/`](./chrome) | Listo |
+| Slack | — | Próximamente |
 | JetBrains · Obsidian · Raycast · Firefox | — | Próximamente |
 
 ## Por que existe
