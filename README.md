@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="vscode/assets/banner.png" width="100%" alt="Atacama Theme · Tema oscuro y claro con la paleta del desierto de Atacama.">
+  <img src="assets/banner.png" width="100%" alt="Atacama Theme · Tema oscuro y claro con la paleta del desierto de Atacama: azul profundo y amarillo de acento.">
 </p>
 
 # Atacama Theme
 
-**Tema oscuro y claro con la paleta del desierto de Atacama: azul profundo, amarillo de acento, todo lo demás en silencio.**
+**Tema oscuro y claro con la paleta del desierto de Atacama: azul profundo y amarillo de acento.**
 
 [![versión](https://img.shields.io/github/package-json/v/commentemeapp/atacama-theme/main?filename=vscode%2Fpackage.json&label=versi%C3%B3n&labelColor=005278&color=FFBD38)](https://marketplace.visualstudio.com/items?itemName=commenteme.atacama-theme)
 [![licencia](https://img.shields.io/github/license/commentemeapp/atacama-theme?label=licencia&labelColor=005278&color=FFBD38)](./LICENSE)
@@ -63,4 +63,4 @@ Conventional Commits; rama saliendo de `dev` y PR contra `dev`. [MIT](./LICENSE)
 
 ---
 
-Hecho por [commente.me](https://commente.me) · hablecon@commente.me
+Hecho por [commente.me](https://www.commente.me) · hablecon@commente.me
