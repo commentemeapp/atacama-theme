@@ -40,7 +40,8 @@ code --install-extension commenteme.atacama-theme
 | Windows Terminal | [`windows-terminal/`](./windows-terminal) | Listo |
 | Alacritty | [`alacritty/`](./alacritty) | Listo |
 | Kitty | [`kitty/`](./kitty) | Listo |
-| Chrome · Edge · Brave · Arc · Slack | — | Próximamente |
+| Chrome · Edge · Brave · Arc | [`chrome/`](./chrome) | Listo |
+| Slack | — | Próximamente |
 | JetBrains · Obsidian · Raycast · Firefox | — | Próximamente |
 
 ## Por que existe
