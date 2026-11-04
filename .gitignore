@@ -3,3 +3,6 @@ node_modules/
 vscode/product-icons/fixed/
 vscode/product-icons/*.woff
 .DS_Store
+
+# Cache que o Chrome cria ao carregar um tema sem compactação
+Cached Theme.pak
