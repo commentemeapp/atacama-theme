@@ -1,13 +1,12 @@
-<p align="center">
-  <img src="assets/banner.png" width="100%" alt="Atacama Theme · Tema oscuro y claro con la paleta del desierto de Atacama: azul profundo y amarillo de acento.">
-</p>
+![Atacama Theme · Atacama Noche, Día y Azul, con la paleta del desierto de Atacama.](.github/assets/banner.png)
 
 # Atacama Theme
 
 **Tema oscuro y claro con la paleta del desierto de Atacama: azul profundo y amarillo de acento.**
 
-[![versión](https://img.shields.io/github/package-json/v/commentemeapp/atacama-theme/main?filename=vscode%2Fpackage.json&label=versi%C3%B3n&labelColor=005278&color=FFBD38)](https://marketplace.visualstudio.com/items?itemName=commenteme.atacama-theme)
-[![licencia](https://img.shields.io/github/license/commentemeapp/atacama-theme?label=licencia&labelColor=005278&color=FFBD38)](./LICENSE)
+[![versión](https://badgen.net/vs-marketplace/v/commenteme.atacama-theme?color=005278)](https://marketplace.visualstudio.com/items?itemName=commenteme.atacama-theme)
+[![instalaciones](https://badgen.net/vs-marketplace/i/commenteme.atacama-theme)](https://marketplace.visualstudio.com/items?itemName=commenteme.atacama-theme)
+[![licencia](https://badgen.net/github/license/commentemeapp/atacama-theme)](./LICENSE)
 
 ## Instalación
 
@@ -61,6 +60,4 @@ Desarrollo y publicación de la extensión: [`vscode/README.md`](./vscode/README
 
 Conventional Commits; rama saliendo de `dev` y PR contra `dev`. [MIT](./LICENSE)
 
----
-
-Hecho por [commente.me](https://www.commente.me) · hablecon@commente.me
+_Hecho con amor y café por [zeluizr](https://github.com/zeluizr) y con la ayuda de [Claude](https://claude.ai/referral/Cz_UimA0NQ) ☕_
