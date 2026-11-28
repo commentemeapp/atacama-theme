@@ -4,23 +4,21 @@
 
 **Tema oscuro y claro con la paleta del desierto de Atacama: azul profundo y amarillo de acento.**
 
-[![versión](https://badgen.net/vs-marketplace/v/commenteme.atacama-theme?color=005278)](https://marketplace.visualstudio.com/items?itemName=commenteme.atacama-theme)
-[![instalaciones](https://badgen.net/vs-marketplace/i/commenteme.atacama-theme)](https://marketplace.visualstudio.com/items?itemName=commenteme.atacama-theme)
-[![licencia](https://badgen.net/github/license/commentemeapp/atacama-theme)](./LICENSE)
+Versión 1.0.1 · estable. Cambios en [vscode/CHANGELOG.md](./vscode/CHANGELOG.md).
 
 ## Instalación
-
-VS Code, Cursor, Windsurf y VSCodium:
 
 ```bash
 code --install-extension commenteme.atacama-theme
 ```
 
-## Uso rápido
+Funciona en VS Code, Cursor, Windsurf y VSCodium.
+
+## Uso
 
 `Cmd/Ctrl + K`, `Cmd/Ctrl + T` y elige **Atacama Noche** o **Atacama Día**. Íconos y uso completo en [`vscode/`](./vscode).
 
-## Que incluye
+### Que incluye
 
 | Sabor | Fondo | Acento | Uso |
 |---|---|---|---|
@@ -31,7 +29,7 @@ code --install-extension commenteme.atacama-theme
 | App | Carpeta | Estado |
 |---|---|---|
 | VS Code · Cursor · Windsurf · VSCodium | [`vscode/`](./vscode) | Listo |
-| Zed · Neovim | — | Próximamente |
+| Zed · Neovim | Todavía no | Próximamente |
 | Warp | [`warp/`](./warp) | Listo |
 | Ghostty | [`ghostty/`](./ghostty) | Listo |
 | iTerm2 | [`iterm2/`](./iterm2) | Listo |
@@ -39,14 +37,18 @@ code --install-extension commenteme.atacama-theme
 | Alacritty | [`alacritty/`](./alacritty) | Listo |
 | Kitty | [`kitty/`](./kitty) | Listo |
 | Chrome · Edge · Brave · Arc | [`chrome/`](./chrome) | Listo |
-| Slack | — | Próximamente |
-| JetBrains · Obsidian · Raycast · Firefox | — | Próximamente |
+| Slack | Todavía no | Próximamente |
+| JetBrains · Obsidian · Raycast · Firefox | Todavía no | Próximamente |
 
-## Por que existe
+### Por que existe
 
 Nació en el equipo que construye tiendas en VTEX IO, Shopify y Adobe Commerce, y es público, sin costo. Los colores viven en un solo archivo, [`palette.json`](./palette.json): cada port sale de ahí, nunca de un hex copiado a mano.
 
-## Documentación
+## Desarrollo
+
+Los colores viven solo en [`palette.json`](./palette.json). `node terminais.mjs` genera los temas de Ghostty, iTerm2, Windows Terminal, Alacritty y Kitty en los tres sabores, y `node terminais.mjs --check` falla si algún archivo no coincide con la paleta. Warp tiene su propio generador, `warp/build.mjs`.
+
+Conventional Commits; rama saliendo de `dev` y PR contra `dev`.
 
 ### Sumar un port
 
@@ -56,8 +58,23 @@ Nació en el equipo que construye tiendas en VTEX IO, Shopify y Adobe Commerce, 
 
 Desarrollo y publicación de la extensión: [`vscode/README.md`](./vscode/README.md#documentación).
 
-## Contribuir · Licencia
+## Estructura
 
-Conventional Commits; rama saliendo de `dev` y PR contra `dev`. [MIT](./LICENSE)
+```text
+palette.json        # fuente única de los colores
+terminais.mjs       # generador de los temas de terminal
+vscode/             # extensión de VS Code, Cursor, Windsurf y VSCodium (README propio del Marketplace)
+chrome/             # tema de Chrome, Edge, Brave y Arc
+warp/               # tema de Warp y su generador
+ghostty/  iterm2/  windows-terminal/  alacritty/  kitty/
+```
+
+## Licencia
+
+[MIT](./LICENSE).
+
+Contacto: hablecon@commente.me
+
+---
 
 _Hecho con amor y café por [zeluizr](https://github.com/zeluizr) y con la ayuda de [Claude](https://claude.ai/referral/Cz_UimA0NQ) ☕_
